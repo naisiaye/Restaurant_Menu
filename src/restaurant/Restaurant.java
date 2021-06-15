@@ -1,6 +1,5 @@
 package restaurant;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -25,9 +24,9 @@ public class Restaurant {
                         "Chocolate, Vanilla or Strawberry Gelato made in house.",
                         "dessert"),
                 new MenuItem(
-                        "Bruschetta",
-                        10.00,
-                        "Cherry tomatoes, tuscan bread, olive oil, garlic and fresh basil.",
+                        "Calamari",
+                        10.95,
+                        "Salt and pepper deep-fries calamari.",
                         "appetizer")));
 
 
@@ -40,10 +39,10 @@ public class Restaurant {
         //Create several items and add them to a menu.
         Menu menu = new Menu(menuItems);
         menu.addMenuItem(new MenuItem(
-                "Canoli",
-                7.25,
-                "Italian pastry deep fried then filled with slightly sweet and creamy ricotta.",
-                "dessert"));
+                "Dumplings",
+                9.95,
+                "Steamed chicken dumplings.",
+                "appetizer"));
 //            menu.printMenu();
 
         //Print the entire, updated menu to the screen.
